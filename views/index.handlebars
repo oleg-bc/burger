@@ -1,11 +1,11 @@
 <h1>Burgers!</h1>
-
+<img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/17/01/1483576575-big-kahuna.jpg?resize=368:*" alt="Flowers in Chania">
 <h2>Burgers that are not devoured!</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burger-block devoured=false}}
+      {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -15,7 +15,7 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=true}}
+      {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
