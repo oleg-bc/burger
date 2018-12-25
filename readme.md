@@ -20,5 +20,10 @@ The App allows a user to
 below are screenshots of main UI features (requirements)
 
 ![alt text](./rme3.jpg)
-![alt text](./rme1.jpg)
+
 ![alt text](./rme2.jpg)
+![alt text](./rme1.jpg)
+
+Key learning durin this project was about how handlebars parses file paths - relative path is used as shown below
+
+![alt text](./rme4-code.jpg)
