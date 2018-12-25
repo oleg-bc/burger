@@ -20,7 +20,6 @@ The App allows a user to
 below are screenshots of main UI features (requirements)
 
 ![alt text](./rme3.jpg)
-
 ![alt text](./rme2.jpg)
 ![alt text](./rme1.jpg)
 
